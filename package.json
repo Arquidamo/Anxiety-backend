@@ -1,0 +1,42 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "backend mern",
+  "main": "inicio.app.js",
+  "scripts": {
+    "test": "prueba",
+    "dev": "nodemon src/inicio.app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arquidamo/Anxiety-backend.git"
+  },
+  "keywords": [
+    "node",
+    "git",
+    "express",
+    "js"
+  ],
+  "author": {
+    "name": "Arquidamo de Esparta",
+    "email": "arquidamo.de.esparta@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arquidamo/Anxiety-backend/issues"
+  },
+  "homepage": "https://github.com/Arquidamo/Anxiety-backend#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.1",
+    "npm": "^6.14.9"
+  }
+}
